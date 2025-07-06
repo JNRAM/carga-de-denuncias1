@@ -1,0 +1,90 @@
+/* Fuente y colores */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #e0f7fa, #b2ebf2);
+  color: #333;
+}
+
+/* Encabezado */
+header {
+  background-color: #0288d1;
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+/* Secciones */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.tarjeta {
+  background-color: white;
+  width: 90%;
+  max-width: 800px;
+  margin: 1.5rem 0;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.tarjeta h2 {
+  font-size: 1.8rem;
+  color: #0288d1;
+  margin-bottom: 1rem;
+}
+
+.tarjeta p, .tarjeta li {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+ol {
+  list-style: decimal inside;
+  padding-left: 0;
+}
+
+/* Botón */
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 2rem;
+  background-color: #0288d1;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s;
+}
+
+.btn:hover {
+  background-color: #0277bd;
+  transform: scale(1.05);
+}
+
+/* Pie de página */
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #b2ebf2;
+  color: #004d40;
+  font-size: 0.95rem;
+  margin-top: 2rem;
+}
