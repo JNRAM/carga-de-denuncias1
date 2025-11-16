@@ -88,3 +88,16 @@ footer {
   font-size: 0.95rem;
   margin-top: 2rem;
 }
+/* Botón de WhatsApp */
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+.whatsapp-btn img {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
