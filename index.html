@@ -3,114 +3,65 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ProfessionalService",
-  "name": "Carga de Denuncias de Siniestros",
-  "description": "Servicio profesional para gestión y carga de denuncias de siniestros en Argentina.",
-  "areaServed": "Argentina",
-  "url": "https://jnram.github.io/carga-de-denuncias1/",
-  "serviceType": "Carga de denuncias de siniestros",
-  "provider": {
-    "@type": "Person",
-    "name": "Jesica Ramirez"
-  }
-}
-</script>
-
-
-  <!-- SEO PRINCIPAL -->
-<title>Carga de Denuncias de Siniestros – Gestión Rápida y Profesional en Argentina</title>
-
-  <meta name="description" content="Servicio profesional para cargar denuncias de siniestros. Gestionamos tu reclamo ante la compañía aseguradora del tercero y te damos seguimiento. Atención rápida y segura.">
-  <meta name="robots" content="index, follow">
-
-  <!-- PALABRAS CLAVE (opcionales) -->
-  <meta name="keywords" content="denuncias, siniestros, choque, reclamo seguro, carga de denuncias, seguro automotor, reclamo tercero">
-
-  <!-- DATOS DEL AUTOR -->
-  <meta name="author" content="Jesica Ramirez">
-
-  <!-- OPEN GRAPH (para WhatsApp, Facebook, etc) -->
-  <meta property="og:title" content="Carga de Denuncias de Siniestros">
-  <meta property="og:description" content="Gestión rápida y segura de reclamos por siniestros. Realizamos la carga del reclamo por vos.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://jnram.github.io/carga-de-denuncias1/">
-
-  <!-- GOOGLE FONTS Y CSS -->
+  <title>Carga de Denuncias de Siniestros</title>
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-</head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
+</head>
 <body>
   <header>
-    <h1>Carga de Denuncias de Siniestros en Argentina</h1>
-    <p>Servicio profesional para la carga de denuncias de siniestros en Argentina. Gestionamos tu reclamo, te guiamos con los requisitos y te entregamos el número de trámite para que puedas hacer el seguimiento fácilmente.
-</p>
+    <h1>Carga de Denuncias de Siniestros</h1>
+    <p>Tu gestión más rápida y segura.</p>
   </header>
 
   <main>
-    <section class="tarjeta reveal">
-      <h2>¿Tuviste un choque?</h2>
+    <section class="tarjeta">
+      <h2>¿Tuviste un choque? </h2>
       <p>
-        No te preocupes. Realizamos la carga del reclamo ante el seguro del tercero involucrado.
-        Te brindamos el número de trámite para que puedas hacer el seguimiento y recibir el pago directamente en tu cuenta.
-        Te acompañamos durante todo el proceso.
+         No te preocupes. 
+         Nosotros cargamos el reclamo por vos ante el seguro del otro conductor. Te damos el número de trámite para que puedas hacer el seguimiento, 
+         y recibir el pago directamente en tu cuenta.
+         acompañandote durante todo el proceso.
       </p>
     </section>
+   
 
-    <section class="tarjeta reveal">
+    <section class="tarjeta">
       <h2>¿Cómo funciona?</h2>
       <ol>
-        <li>Nos enviás la denuncia emitida por tu aseguradora.</li>
-        <li>Te pedimos los requisitos solicitados por la compañía del tercero.</li>
-        <li>Cargamos el reclamo por vos.</li>
+        <li>Nos enviás la denuncia de tu compañia.</li>
+        <li>te pedimos los requisitos que solicita la compañia del tercero.</li>
+        <li>cargamos el reclamo.</li>
         <li>Te damos tu código de seguimiento.</li>
-        <li>Luego gestionás el pago directamente con la compañía.</li>
+        <li>se gestiona con la compañia para que se acredite el pago en tu cuenta.</li>
       </ol>
     </section>
 
-    <section class="tarjeta reveal">
+    <section class="tarjeta">
       <h2>¿Tenés un siniestro?</h2>
-      <p>
-        Estamos para ayudarte. Escribinos y resolvemos tu denuncia rápidamente.
-        Solo completás tus datos y nosotros gestionamos todo el proceso por vos.
-      </p>
+      <p>Estamos para ayudarte. Escribinos y resolvemos tu denuncia rápidamente.</p>
+      <a class="btn mail" href="mailto:fede.nazareno2018@gmail.com">
+  <i class="fa-solid fa-envelope"></i> Escribir por Email
+</a>
 
-      <a class="btn" href="mailto:ramirez.jesica2016@gmail.com">Escribir por Email</a>
+<a class="btn whatsapp" href="https://wa.me/5491139289812" target="_blank">
+  <i class="fa-brands fa-whatsapp"></i> Escribir por WhatsApp
+</a>
+
+
     </section>
   </main>
 
   <footer>
     <p>© 2025 - Servicio profesional de carga de denuncias</p>
   </footer>
-    
-  <!-- BOTÓN WHATSAPP -->
-  <a class="whatsapp-btn" href="https://wa.me/541158002948" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
-         alt="WhatsApp" width="50">
-  </a>
-
-  <!-- ANIMACIÓN "REVEAL" AL HACER SCROLL -->
-  <script>
-    const elements = document.querySelectorAll('.reveal');
-
-    function revealOnScroll() {
-      elements.forEach(el => {
-        const windowHeight = window.innerHeight;
-        const elementTop = el.getBoundingClientRect().top;
-        const revealPoint = 100;
-
-        if (elementTop < windowHeight - revealPoint) {
-          el.classList.add('active');
-        }
-      });
-    }
-
-    window.addEventListener('scroll', revealOnScroll);
-    revealOnScroll();
-  </script>
+  <a href="https://wa.me/5491139289812" 
+   class="whatsapp-float" 
+   target="_blank" 
+   aria-label="WhatsApp">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
 
 </body>
 </html>
